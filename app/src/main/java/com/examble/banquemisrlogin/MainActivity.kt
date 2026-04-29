@@ -213,7 +213,7 @@ fun SignInBtn(onClick: () -> Unit, modifier: Modifier = Modifier,
         enabled = isEnabled
     ) {
         Text(
-            text = "Login",
+            text = stringResource(R.string.login),
             fontSize = 16.sp,
             fontFamily = FontFamily(Font(R.font.cairo_semibold))
         )
